@@ -14,22 +14,22 @@ cask "nibble" do
   on_macos do
     on_intel do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_darwin_amd64.tar.gz"
-      sha256 "976665290b388105715a3052dd92201b4cba34794ee1f081f2c091eda269705d"
+      sha256 "4ed7f5020d8e6a32fb696de204a531ae3409911deadadaae4bd0323c7a931b12"
     end
     on_arm do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_darwin_arm64.tar.gz"
-      sha256 "c28097021bb7f57795a79e4ad0417735d7475e4e6101a2d87b48b6a5d8923b5a"
+      sha256 "176068fd821d96bf2cf30eb39ffa39d9e700d7e947a9f6cdd5ba095899bd4e70"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_linux_amd64.tar.gz"
-      sha256 "b20013c7ad7909956bb2a6efe31df72b15f5a2a229c8f2c35419783042b22300"
+      sha256 "dabc17c1137304db975522155843795db5a7f95c4ab5598f07d6d7aaacb77406"
     end
     on_arm do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_linux_arm64.tar.gz"
-      sha256 "962dacf5181b113fb13205d043d4f7df93c13a2d799f725f017d019d6eb68c25"
+      sha256 "54deaf6774385ad811f57452c5e1a615457f732e55fb16b93f8f486fc80c300a"
     end
   end
 
