@@ -3,7 +3,7 @@ cask "nibble" do
   name "nibble"
   desc "Fast local network scanner with hardware identification and a terminal UI"
   homepage "https://github.com/saberd/nibble"
-  version "0.1.3"
+  version "0.1.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "nibble" do
   on_macos do
     on_intel do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_darwin_amd64.tar.gz"
-      sha256 "84c01d388e5fabd0caa5bee6f4b59cbbc0e5a55d6d07433219cefe44ce7007b7"
+      sha256 "e2a0f6a7ea696a2903ea4c52c74ccd02e676bc54163028b9f7d75536b8faaa54"
     end
     on_arm do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_darwin_arm64.tar.gz"
-      sha256 "00d7aff4de2e140bddce43753e1ccfee133fe3096559f1cc6273241e349ca864"
+      sha256 "bf1cfbe360a803ce0a7b2c9278927980f5ef1b39c8292de586cbafd13d239752"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_linux_amd64.tar.gz"
-      sha256 "a3f3c094b2b8c00d4ac3fbff14612a08b418e8f3582c10fbe993e277097a3aeb"
+      sha256 "fb54303997d39701016b0137ad3695cd307e667582cc2a5f4fc594723c5e5978"
     end
     on_arm do
       url "https://github.com/saberd/nibble/releases/download/v#{version}/nibble_linux_arm64.tar.gz"
-      sha256 "d1167870196a47267066f8273967a38798977ce189e95350dbb39072e5461cb1"
+      sha256 "2daa64c50261706c1d4638c64f17d0ea72cdeeffcdbe758d0b36bc8acce9af36"
     end
   end
 
